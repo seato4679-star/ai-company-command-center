@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": "T-2026-0001",
+      "title": "Command Center 設計書v1を作成する",
+      "agent_id": "commander",
+      "department": "経営企画",
+      "status": "completed",
+      "input": "社長の要件(可視化・無料・静的・資産化)",
+      "output": "docs/spec.md",
+      "created": "2026-07-07",
+      "updated": "2026-07-08T00:30:00+09:00",
+      "blocked_reason": null,
+      "next_action": null,
+      "human_check": "MVP範囲の承認 (済)"
+    },
+    {
+      "id": "T-2026-0002",
+      "title": "リポジトリ初期データ一式を整備する",
+      "agent_id": "commander",
+      "department": "経営企画",
+      "status": "running",
+      "input": "docs/spec.md のデータ契約",
+      "output": "data/*.json, agents/*/profile.md, README.md, AGENTS.md",
+      "created": "2026-07-08",
+      "updated": "2026-07-08T14:30:00+09:00",
+      "blocked_reason": null,
+      "next_action": "コミット後、人間の確認を経てGitHubへpush",
+      "human_check": "公開して問題ない内容か(機密なし)を確認してからpush"
+    },
+    {
+      "id": "T-2026-0003",
+      "title": "MVPダッシュボードを実装する (index.html / app.js / style.css)",
+      "agent_id": "builder",
+      "department": "開発部",
+      "status": "idle",
+      "input": "docs/spec.md §データ契約・§画面設計、data/のサンプル実データ",
+      "output": "index.html, style.css, app.js",
+      "created": "2026-07-08",
+      "updated": "2026-07-08T14:30:00+09:00",
+      "blocked_reason": null,
+      "next_action": "5要素依頼文を受領して実装開始",
+      "human_check": "ローカル表示とスマホ幅の確認"
+    },
+    {
+      "id": "T-2026-0004",
+      "title": "GitHub Pagesを有効化して公開する",
+      "agent_id": "commander",
+      "department": "経営企画",
+      "status": "waiting",
+      "input": "公開リポジトリ(main)",
+      "output": "公開URL",
+      "created": "2026-07-08",
+      "updated": "2026-07-08T14:30:00+09:00",
+      "blocked_reason": null,
+      "next_action": "人間がリポジトリ作成とPages設定を行う(手順はREADME)",
+      "human_check": "Settings → Pages → main / root を選択"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "ts": "2026-07-08T14:30:00+09:00",
+      "agent_id": "commander",
+      "task_id": "T-2026-0002",
+      "action": "リポジトリ初期化とデータ雛形の生成(実データ入り)",
+      "result": "ok",
+      "output_link": "data/",
+      "note": "6社員・タスク4件・データ契約準拠で作成"
+    },
+    {
+      "ts": "2026-07-08T00:30:00+09:00",
+      "agent_id": "commander",
+      "task_id": "T-2026-0001",
+      "action": "設計書v1を完成(MVP範囲・データ構造・画面設計・7日間計画)",
+      "result": "ok",
+      "output_link": "docs/spec.md",
+      "note": "架空社員を置かず実在6社員を映す方針に確定"
+    },
+    {
+      "ts": "2026-07-07T23:00:00+09:00",
+      "agent_id": "commander",
+      "task_id": "T-2026-0001",
+      "action": "AI会社の基盤(ナレッジ運用・作業ルール)を整備し最終レビュー完了",
+      "result": "ok",
+      "output_link": null,
+      "note": "総合評価88点。以後は運用フェーズ"
+    }
+  ]
+}

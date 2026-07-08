@@ -1,0 +1,18 @@
+{
+  "updated": "2026-07-08",
+  "counts": {
+    "clips": 0,
+    "research": 0,
+    "drafts": 0,
+    "practice": 0,
+    "brain_processed": 1
+  },
+  "recent": [
+    {
+      "date": "2026-07-07",
+      "title": "有料教材1本を処理(要約+実行判定ログ化)",
+      "type": "brain"
+    }
+  ],
+  "note": "ノート本文は非公開のObsidian Vaultにあり、ここには件数とメタ情報のみを置く"
+}

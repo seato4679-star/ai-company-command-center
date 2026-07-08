@@ -1,0 +1,28 @@
+{
+  "outputs": [
+    {
+      "date": "2026-07-08",
+      "title": "Command Center 設計書 (公開版)",
+      "agent_id": "commander",
+      "type": "doc",
+      "link": "docs/spec.md",
+      "public": true
+    },
+    {
+      "date": "2026-07-08",
+      "title": "初期データ一式 (agents / tasks / runs / outputs)",
+      "agent_id": "commander",
+      "type": "data",
+      "link": "data/",
+      "public": true
+    },
+    {
+      "date": "2026-07-07",
+      "title": "AI会社 運用基盤ドキュメント一式 (社内)",
+      "agent_id": "commander",
+      "type": "doc",
+      "link": null,
+      "public": false
+    }
+  ]
+}
