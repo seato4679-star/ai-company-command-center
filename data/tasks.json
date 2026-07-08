@@ -33,14 +33,14 @@
       "title": "MVPダッシュボードを実装する (index.html / app.js / style.css)",
       "agent_id": "builder",
       "department": "開発部",
-      "status": "idle",
+      "status": "completed",
       "input": "docs/spec.md §データ契約・§画面設計、data/のサンプル実データ",
       "output": "index.html, style.css, app.js",
       "created": "2026-07-08",
-      "updated": "2026-07-08T14:30:00+09:00",
+      "updated": "2026-07-08T16:30:00+09:00",
       "blocked_reason": null,
-      "next_action": "5要素依頼文を受領して実装開始",
-      "human_check": "ローカル表示とスマホ幅の確認"
+      "next_action": null,
+      "human_check": "ローカル表示、375px幅、データ差し替え耐性を確認済み。push前に人間が最終確認"
     },
     {
       "id": "T-2026-0004",
