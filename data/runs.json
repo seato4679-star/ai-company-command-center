@@ -1,6 +1,15 @@
 {
   "runs": [
     {
+      "ts": "2026-07-08T16:45:00+09:00",
+      "agent_id": "commander",
+      "task_id": "T-2026-0003",
+      "action": "MVP実装の検収。受け入れ基準5項目(7人目追加・blocked表示・375px・JSON欠損耐性・ローカル表示)を実機テストし全合格",
+      "result": "ok",
+      "output_link": "docs/spec.md",
+      "note": "コンソールエラー0件。XSS対策(textContent)・ダーク/ライト対応も確認"
+    },
+    {
       "ts": "2026-07-08T16:30:00+09:00",
       "agent_id": "builder",
       "task_id": "T-2026-0003",

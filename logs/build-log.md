@@ -2,6 +2,7 @@
 
 新しい順に1行1イベントで追記する。
 
+- 2026-07-08 16:45 [commander] 検収完了。受け入れ基準5項目すべて合格。公開へ
 - 2026-07-08 16:30 [builder] MVPダッシュボード(index.html / style.css / app.js)を実装。375px表示・社員追加・blocked・JSON欠損耐性を確認 → index.html
 - 2026-07-08 15:00 [commander] 初回push完了。リポジトリ公開(16ファイル)。次: Pages設定→MVP実装
 - 2026-07-08 14:30 [commander] リポジトリ初期化。データ雛形5本・プロフィール6名・README/AGENTS/spec生成 → data/
